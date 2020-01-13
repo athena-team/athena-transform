@@ -1,0 +1,6 @@
+reviewers: lixiangang,gaoyonghu,songhui,pengyiping,zouwei,ethanzhanghui,dengchengyun
+owners: lixiangang,gaoyonghu,songhui,pengyiping,zouwei,ethanzhanghui,dengchengyun
+strategy: ownerOne
+force: master,dev
+exclude:
+  - "a/.*\\.pyc$"

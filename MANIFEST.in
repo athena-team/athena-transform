@@ -1,0 +1,2 @@
+README.md
+include transform/feats/ops/kernels/*.h
