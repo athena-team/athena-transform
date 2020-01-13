@@ -1,30 +1,29 @@
-# delta-speech-feature
+# Athena-transform
 
-Delta-speech-feautre is a preprocess data toolkit, it forked with changes from [delta](https://github.com/didi/delta).
+Athena-transform is a preprocess data toolkit
 
 ## Requirements
+
 - Python3.x
-- tensorflow==1.14
-- gcc>=4.8.5 
+- tensorflow>=2.0
+- gcc>=4.8.5
 
 ## Installation
+
 ### Install from source code
 
-```
-git clone https://git.xiaojukeji.com/speech/transform.git
+```bash
+git clone https://github.com/athena-team/athena-transform.git
 ./pack.sh
-pip install dist/transform-0.1.0-py3-none-any.whl
+pip install dist/transform*.whl
 ```
 
-### Pip install (Not support now)
-```
-pip install speech-feature=0.1.0
-```
+## Execution of example
 
-## Execution of example 
 Please source env.sh first if not install speech-feature.
-```
+
+```bash
 python examples/test.py
 ```
 
-## References 
+## References
