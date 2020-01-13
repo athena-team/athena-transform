@@ -52,7 +52,7 @@ with open("README.md", "r") as fh:
     description="A speech feature extract model",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://git.xiaojukeji.com/speech/delta-speech-feature",
+    url="https://github.com/athena-team/athena-transform",
     packages=setuptools.find_packages(),
     package_data={"": ["x_ops*.so"]},
     exclude_package_data={'feats': ['*_test*']},
